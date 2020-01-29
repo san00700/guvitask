@@ -1,3 +1,4 @@
+a = []
 n = int(input("\n Enter the Range : "))
 i = 0
 First = 0
@@ -9,7 +10,9 @@ while(i < n):
      temp = First + Second
      First = Second
      Second = temp
-print(\t temp)
+print( temp )
+a.append(temp)
+print(a)
 i = i + 1
   
   
